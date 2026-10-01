@@ -58,6 +58,10 @@ python test.py -m FCN4_Deep_2 -s all_408k -r BigFWI_B.pth --vis --vis-suffix val
 
 The checkpoints of BigFWI-B, BigFWI-M and BigFWI-XL are provided on [Google Drive](https://drive.google.com/drive/folders/1Wy7UTRgzKytP_Aoe0hJpdmXXRejetuzA?usp=sharing). 
 
+## ⚠️ Known Issue
+The checkpoints we provide on Google Drive correspond to `FCN4_Deep_2` (BigFWI-B, 24M parameters), `FCN4_Deep_2L` (BigFWI-M, 29M), and `FCN4_Deep_2XL` (BigFWI-XL, 102M). If you want to reproduce the results of BigFWI-L in the paper, you may train `FCN4_Deep_2XL_2` (87M) from scratch. All the network architectures are defined in `network/fcn.npy`.
+
+
 ## 📄 Citation
 
 If you use BigFWI in your research, please cite:
