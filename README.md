@@ -7,7 +7,6 @@
 
 This is the official repository for paper "An empirical study of large-scale data-driven full waveform inversion".
 
-***
 ## 📜 Abstract
 
 This paper investigates the impact of big data on deep learning models to help solve the full waveform inversion (FWI) problem. While it is well known that big data can boost the performance of deep learning models in many tasks, its effectiveness has not been validated for FWI. To address this gap, we present an empirical study that investigates how deep learning models in FWI behave when trained on openfwi, a collection of large-scale, multi-structural, synthetic datasets published recently. In particular, we train and evaluate the FWI models on a combination of 10 2D subsets in openfwi that contain 470 K pairs of seismic data and velocity maps in total. Our experiments demonstrate that training on the combined dataset yields an average improvement of 13.03% in MAE, 7.19% in MSE and 1.87% in SSIM compared to each split dataset, and an average improvement of 28.60%, 21.55% and 8.22% in the leave-one-out generalization test. We further demonstrate that model capacity needs to scale in accordance with data size for optimal improvement, where our largest model yields an average improvement of 20.06%, 13.39% and 0.72% compared to the smallest one.
